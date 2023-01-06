@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <meta charset="utf-8">
+       <title>Landing Page</title>
+       <link rel="stylesheet" type="text/css" href="commerce.css">
+       <script src="https://kit.fontawesome.com/e4780a578d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section>
+            <div class="bg"></div>
+                   <header>
+                          <a href="#" class="logo">Denim Store</a>
+                          <ul class="navbar">
+                                 <li><a href="#Home" class="active">Home</a></li>
+                                 <li><a href="#">Menu</a></li>
+                                 <li><a href="#">Services</a></li>
+                                 <li><a href="#">Contact</a></li>
+                          </ul>
+                   </header>
+            </div>
+            <div class="content">
+                   <div class="textbox">
+                          <h2>Quality And Comfort Matters</h2>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <button class="btn41-43 btn-41">Click</button>
+                   </div>
+                   <div class="imgbox">
+                          <img src="img.jfif" class="fashion">
+                   </div>
+            </div>
+           
+            <div class="socialmedia">
+                   <a href="#"><i class="fa fa-facebook"></i></a>
+                   <a href="#"><i class="fa fa-instagram"></i></a>
+                   <a href="#"><i class="fa fa-snapchat"></i></a>
+                   <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+     </section>
+     <script>
+            function slider(somthing) {
+                   document.querySelector('.fashion').src=somthing;
+            }
+            function BackgroundColor(color) {
+                   const bg=document.querySelector('.bg')
+                   bg.style.BackgroundColor=color;
+            }
+     </script>
+</body>
+</html>
